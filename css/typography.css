@@ -2,6 +2,7 @@
 body {
     text-align:right;
     font-family: 'Varela Round', serif;
+    letter-spacing: 2px;
 }
 
 
@@ -36,6 +37,7 @@ body {
 }
 
 .project-card-text {
+    text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
@@ -44,9 +46,23 @@ body {
 }
 
 .project-title {
+    color:#899499;
+    text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
+}
+
+.project-title-lang {
+    color:#A93226;
+    font-weight: bold;
+}
+
+.ai-notice{
+    letter-spacing: normal;
+    font-size: 11px;
+    color:#2E86C1;
+    text-decoration:wavy;
 }

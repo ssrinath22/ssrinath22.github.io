@@ -7,6 +7,7 @@
   margin-top: 1px;
 }
 
+
 .footer-icon {
   width: 20px;
   height: 20px;
@@ -57,14 +58,22 @@ a.icon-link:hover {
 
 .inline-link {
     color:#2E86C1;
-    text-decoration:dashed;
+    text-decoration:wavy;
+}
+
+.inline-link-ai{
+    font-size: 11px;
+    color:#2E86C1;
+    text-decoration:underline;
 }
 
 .inline-link:hover{
     font-weight: bold;
     color:#A93226;
 }
-
+.inline-link-ai:hover{
+    color:#A93226;
+}
 
 /* Button Styling */
 
