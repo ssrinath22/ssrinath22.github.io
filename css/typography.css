@@ -1,6 +1,9 @@
+
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:right;
+    font-family: 'Varela Round', serif;
 }
+
 
 .nav-title {
   font-weight: 700;
@@ -18,7 +21,7 @@ body {
 }
 
 .main-title {
-  font-size: 40px;
+   font-size: 60px;
   font-weight: 700;
 }
 

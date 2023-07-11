@@ -43,11 +43,13 @@ body {
   flex-direction: column;
   gap: 10px;
   flex-basis: 50%;
+  font-family: sans-serif;
 }
 
 .portfolio-header-image {
   width: 100%;
   height: auto;
+
 }
 
 #portfolio-header-text-container {
@@ -203,6 +205,12 @@ body {
     flex-direction: column;
   }
 
+  .portfolio-header-image {
+    border-radius: 50%;
+    align-self:center;
+    max-width: 80%;
+
+  }
   .project-card {
     max-width: calc((100% - 16px) / 2);
   }
