@@ -56,6 +56,7 @@ body {
 }
 
 .project-title-lang {
+    text-align: center;
     color:#A93226;
     font-weight: bold;
 }
