@@ -37,11 +37,12 @@ body {
 }
 
 .project-card-text {
+    font-size: 14px;
     text-align: center;
-  overflow: hidden;
+  overflow: scroll;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 7;
   -webkit-box-orient: vertical;
 }
 
