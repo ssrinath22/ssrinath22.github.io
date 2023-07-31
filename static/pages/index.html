@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+    <!-- 
+      TODO
+
+      Upload your Unemployable (or whatever photo you like) to the assets/images folder
+      and change the name of the image below to match the uploaded one
+
+      Change the title in the <title> tag to whatever you would like the title of your portfolio to be
+
+      This should be the same across all pages.
+     -->
+    <link rel="icon" href="../assets/images/1311.png" />
+		<title>Sidharth Srinath</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela Round">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+    <script defer src="./js/script.js"></script>
+
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="./index.html">
+        <!-- TODO - Change the "Portfolio Title" to whatever you want displayed in the top left -->
+        <span class="nav-title">Sidharth Srinath</span>
+         <!-- TODO - Change the email after 'mailto:' to your email address for contact -->
+        <a class="button" href="https://drive.google.com/file/d/1f9sEUswK-guGSLYg_k2s2YxCuopY7XcQ/view?usp=sharing">
+          <span class="button-text">Resume</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PORTFOLIO HEADER -->
+      <div id="portfolio-header">
+        <div id="portfolio-header-image-container">
+          <img src="../assets/images/1311.png" class="portfolio-header-image">
+        </div>
+
+          <!-- 
+            TODO
+
+            - Change the main-title to whatver you want
+            - Change the body-text after that to a quick introduction to what you do
+            - Edit the button text if you feel like it. It will link to the projects section below.
+          -->
+        <div id="portfolio-header-text-container">
+            <div class="header-text">
+              <span class="main-title">Hey, I'm Sid</span>
+              <div class="body-text">I’m a programmer out of San Diego passionate about the use of machine learning and software engineering practices to create compact solutions that address accessibility challenges with modern technology.
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- ABOUT SECTION -->
+      <!-- 
+        TODO
+
+        - Change the subheader-text to whatever header you want
+        - Add paragraphs using the <div class="body-text"></div> elements in the "about-section-content"
+      -->
+      <div id="about-section">
+        <span class="subheader-text">Background / About Me</span>
+        <div class="about-section-content">
+          <div class="body-text">My name is Sidharth Srinath - I'm final-year Computer Science (B.S) student at UC San Diego and have previously worked at <a class="inline-link" href="https://www.linkedin.com/company/medsmart-medical-technology/">MedSmart</a> and <a class="inline-link" href="https://www.werfen.com/na/en">Werfen</a> as a software engineering intern and at UCSD's CSE department as an instructional assistant 
+            (
+                <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse8a">CSE 8A</a>, 
+                <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse8a">CSE 12</a>).
+          Relevant coursework include 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse110">Software Engineering Principles</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse120">Operating Systems</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse140">Digital Systems/Design</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/COGS.html#cogs108">Data Science</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/MATH.html#math183">Probability & Statistics</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse151a">Intro. Machine Learning</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse151b">Deep Learning:Neural Networks</a>, 
+            <a class="inline-link" href="https://catalog.ucsd.edu/courses/CSE.html#cse156">Statistical Natural Language Processing</a> and more.</div>
+        </div>
+        <div class="body-text">Aside from programming, I enjoy playing and recording the guitar using FL Studio and Garageband.</div>
+      </div>
+
+      <!-- PROJECTS / MY WORK SECTION -->
+      <div id="my-work-section">
+        <span class="subheader-text">Projects</span>
+
+        <div class="projects-container">
+          
+          
+        <div class="project-card">
+        <!--img src="./assets/images/desktop.jpeg" class="project-image"-->
+        <div class="project-card-text-container">
+          <div class="subheader-text project-title">Spotify Music Clustering</div>
+          <a class="project-title-lang">Python</a>
+          <div class="body-text project-card-text">Takes input of a Spotify playlist id
+            and splits the playlist's songs into low and high-energy clusters using K-means clustering
+            techniques. Uses OAuth for authorization workflow.
+          </div>
+        </div>
+        <a class="button" href="https://github.com/sidharthsrinath/spotipy-working">
+          <span class="button-text">See Code</span>
+          <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+        </div>
+        <div class="project-card">
+        <!--img src="./assets/images/code.jpeg" class="project-image"-->
+        <div class="project-card-text-container">
+          <div class="subheader-text project-title">Snake Game AI Bot</div>
+          <div class="project-title-lang">Python</div>
+          <div class="body-text project-card-text">
+            Utilizes the NEAT-Python
+            framework and reinforcement
+            learning techniques propelled by
+            genetically evolving neural
+            networks to develop a model that 
+            teratively learns to defeat snake game.
+            </div>
+        </div>
+        <a class="button" href="https://github.com/sidharthsrinath/reinforced_learning_snake_game">
+          <span class="button-text">See Code</span>
+          <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+        </div>
+
+
+          <div class="project-card">
+            <!--img src="./assets/images/sketchbook.jpeg" class="project-image"-->
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Social Compass App </div>
+              <div class="project-title-lang">Java, XML, CSS</div>
+              <div class="body-text project-card-text">
+                Developed an Android app
+                that displays friends’
+                locations in comparison to
+                yours in real time. Process planned and
+                documented in github projects and structured with agile principles</div>
+            </div>
+            <a class="button" href="https://github.com/sidharthsrinath/cse-110-project-cse-110-team-31">
+              <span class="button-text">See Code</span>
+              <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+            </a>
+          </div>
+
+          <div class="project-card">
+            <!--img src="./assets/images/sketchbook.jpeg" class="project-image"-->
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Image Label Generator</div>
+              <div class="project-title-lang">Python</div>
+              <div class="body-text project-card-text">Worked with a team to developed an encoder(convolutional)-decoder(LSTM) structured neural network that generates intelligent tags for image inputs.
+              </div>
+            </div>
+            
+            <a class="button" href="https://senate.ucsd.edu/operating-procedures/senate-manual/appendices/2#:~:text=No%20student%20shall%20allow%20any,for%20themselves%20by%20another%20person.&text=No%20student%20shall%20plagiarize%20or,it%20as%20their%20own%20work.">
+                <span class="button-text">Private Repo</span>
+                <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+          </div>
+          <div class="project-card">
+            <!--img src="./assets/images/sketchbook.jpeg" class="project-image"-->
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Intelligent EQ VST</div>
+              <div class="project-title-lang">C++</div>
+              <div class="body-text project-card-text">Currently in progress. Using JUCE C++ framework to read in audio data from a DAW host and use DSP principles to manipulate sound signals in order to achieve intelligent equalization effects.
+              </div>
+            </div>
+            
+            <a class="button">
+                <span class="button-text">Not Posted Yet</span>
+                <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+          </div>
+
+          <div class="project-card">
+            <!--img src="./assets/images/sketchbook.jpeg" class="project-image"-->
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Medicine Forecast System</div>
+              <div class="project-title-lang">Python</div>
+              <div class="body-text project-card-text">
+                Used various regression techniques to predict future 
+                medicine demand from historical data allowing pharmacies to cut costs 
+                of unused medicine as well as avoid the abuse of excess medication.
+              </div>
+            </div>
+            
+            <a class="button">
+                <span class="button-text">Proprietary IP</span>
+                <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+       <a class="icon-link" target="_blank" href="https://linkedin.com/in/sidharthsrinath">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" target="_blank" href="https://github.com/sidharthsrinath/">
+        <image src="../assets/icons/github.svg" class="footer-icon"/>
+      </a>
+
+      <a class="icon-link" target="_blank" href="mailto:ssrinath@ucsd.edu">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+	</body>
+</html>
