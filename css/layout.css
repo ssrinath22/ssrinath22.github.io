@@ -176,7 +176,6 @@ body {
 .timeline {
     display: flex;
     justify-content: center;
-    background: var(--primary-color);
     margin: 20px auto;
     padding: 20px;
   }
@@ -199,7 +198,7 @@ body {
     content: "";
     position: absolute;
     width: 50%;
-    border: solid rgb(122, 177, 213);
+    border: solid #97999a;
   }
   
   /* Setting the border of top, bottom, left */
@@ -259,15 +258,29 @@ body {
   .title::before {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
-    background: white;
+    margin: 0 -2.5px;
+    width: 15px;
+    height: 15px;
+    background:white;
     border-radius: 999px;
-    border: 3px solid #A93226;
+    border: 3px solid black;
   }
   
+.title .dot-text {
+    display: inline-block;
+    width: 20px; /* Size of the dot */
+    height: 20px; /* Size of the dot */
+    line-height: 20px; /* Center the text vertically */
+    text-align: center; /* Center the text horizontally */
+    border-radius: 50%; /* Make it circular */
+    background-color: #000; /* Dot color */
+    color: #fff; /* Text color */
+    font-size: 8px; /* Adjust based on your design */
+    margin-right: 8px; /* Space between the dot and the title text */
+}  
 
   .org {
+    color:#A93226; 
     margin-top: 0;
     font-size: 15px;
   }

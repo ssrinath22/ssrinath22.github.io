@@ -24,6 +24,10 @@ a.icon-link:hover {
   transform: rotate(15deg);
 }
 
+.resume-button:hover {
+    opacity: .7;
+}
+
 
 /* Navbar Styling */
 
