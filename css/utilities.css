@@ -24,6 +24,10 @@ a.icon-link:hover {
   transform: rotate(15deg);
 }
 
+.resume-button:hover {
+    opacity: .7;
+}
+
 
 /* Navbar Styling */
 
@@ -34,6 +38,7 @@ a.icon-link:hover {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
 }
